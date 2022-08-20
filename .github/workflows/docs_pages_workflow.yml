@@ -15,8 +15,8 @@ jobs:
     steps:
  
     - name: Prereqs
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #env:
+      #  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         apt-get update
         apt-get install -y git
