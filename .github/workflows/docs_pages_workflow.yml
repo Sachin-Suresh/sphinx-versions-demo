@@ -1,5 +1,5 @@
 
-ame: docs_pages_workflow
+name: docs_pages_workflow
  
 # execute this workflow automatically when a we push to master/main
 on:
